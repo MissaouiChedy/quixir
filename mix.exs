@@ -12,7 +12,7 @@ defmodule Quixir.Mixfile do
   ]
 
   @deps [
-    { :pollution, "https://github.com/MissaouiChedy/pollution.git" },
+    { :pollution, git: "https://github.com/MissaouiChedy/pollution.git" },
     { :ex_doc,    ">= 0.0.0", only: [:dev, :test] },
   ]
 
